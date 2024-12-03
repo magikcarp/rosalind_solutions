@@ -71,6 +71,7 @@ func ParseFasta(filePath string) ([]FastaRecord, error) {
 func main() {
 	if len(os.Args) < 2 {
 		fmt.Println("Usage: go run gc.go <fasta_file>")
+		os.Exit(1)
 	}
 
 	filePath := os.Args[1]
