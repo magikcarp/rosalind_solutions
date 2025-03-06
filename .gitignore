@@ -3,4 +3,5 @@
 *.toml
 *.lock
 **/target/
-**/.zig-cache
+**/.zig-cache/
+**/build.*
