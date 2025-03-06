@@ -1,3 +1,4 @@
 # rosalind_solutions
 
-My solutions to the bioinformatics problems available on the Rosalind website written primarily in Go. 
+My solutions to the bioinformatics problems available on Rosalind in a variety
+of languages. 
