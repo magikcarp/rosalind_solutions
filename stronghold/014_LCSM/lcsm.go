@@ -80,13 +80,11 @@ func LongestCommonSubstring(seqArray []string) string {
 					break
 				}
 			}
-
 			if matched_all {
 				lcs = s1
 				break
 			}
 		}
 	}
-
 	return lcs
 }
