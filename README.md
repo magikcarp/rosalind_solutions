@@ -11,3 +11,4 @@ languages, including (in no particular order):
 - Python
 - Haskell
 - Zig
+- R
