@@ -5,3 +5,4 @@
 **/target/
 **/.zig-cache/
 **/build.*
+*.out
