@@ -1,9 +1,9 @@
 module Main where
 
-translate :: String -> String
-translate = map (\n -> if n == 'T' then 'U' else n)
+transcribe :: String -> String
+transcribe = map (\n -> if n == 'T' then 'U' else n)
 
 main :: IO ()
 main = do
     seq <- getLine
-    putStrLn $ translate seq
+    putStrLn $ transcribe seq
