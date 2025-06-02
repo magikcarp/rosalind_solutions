@@ -15,6 +15,11 @@ func Mendel(k, m, n float32) float32 {
 	hetRec := ((n / tot) * (m / (tot - 1))) + ((m / tot) * (n / (tot - 1)))
 	recessiveProb := twoHomRec + (twoHet * 0.25) + (hetRec * 0.5)
 
+	fmt.Println(twoHomRec)
+	fmt.Println(twoHet)
+	fmt.Println(hetRec)
+	fmt.Println(recessiveProb)
+
 	return 1 - recessiveProb
 }
 
@@ -55,6 +60,6 @@ func main() {
 	i := float32(m)
 	j := float32(n)
 
-	fmt.Println(i, j, k)
+	fmt.Println(h, i, j)
 	fmt.Println(Mendel(h, i, j))
 }
