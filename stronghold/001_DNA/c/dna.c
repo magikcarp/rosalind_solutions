@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAX_NT 1000
+#define MAX_NT 1024
 
 struct BaseCount {
     int a;
